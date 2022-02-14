@@ -1,1 +1,7 @@
-# 14-2-22-ass2
+n=int(input('enter number:'))
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+rem
+    n=n//10
+print('sum of digits of a number=%d,'%sum)
